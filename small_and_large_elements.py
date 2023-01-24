@@ -1,0 +1,11 @@
+n=input().split()
+l=[]
+x=n[0]
+y=n[-1]
+x=list(x)
+y=list(y)
+x.sort()
+y.sort()
+l.append(x[0])
+l.append(y[-1])
+print(*l)
